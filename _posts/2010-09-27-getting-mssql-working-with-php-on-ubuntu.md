@@ -14,12 +14,14 @@ The only thing that seems to have changed between that post and 10.0.4 is that `
 
 Just in case it should ever go away, here’s the exact steps I took to install on Ubuntu 10.0.4:
 
-	sudo apt-get install php5-dev
-	sudo apt-get source php5
-	cd ~/php5-5.3.2/ext/mssql
-	sudo phpize
-	sudo ./configure
-	sudo make
-	sudo make install
+{% highlight bash %}
+sudo apt-get install php5-dev
+sudo apt-get source php5
+cd ~/php5-5.3.2/ext/mssql
+sudo phpize
+sudo ./configure
+sudo make
+sudo make install
+{% endhighlight %}
 	
 *Viola!*
