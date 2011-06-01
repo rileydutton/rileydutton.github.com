@@ -26,13 +26,13 @@ The benchmark works by pre-compiling two templates (a simple template with a few
 
 I ran the benchmark on Chrome 6.0.472.63 on Mac OS X Snow Leopard 10.6.3. Here are the results (average time to render, in milliseconds; lower bars are better):
 
-<img src="/images/benchmark1.jpg" />
+<img src="http://riley.dutton.us/images/benchmark1.jpg" />
 
 For reference, jQote2 had an average time of 11ms, maximum time of 15 ms. The official jQuery Templates plugin had an average time of 510ms, with a maximum time of 560ms.
 
 The official plugin is off the charts. It is incredibly slow. For reference, here is the benchmark as it originally appears on the jQote site…here “jQuery Templating” refers to a very old version of the jQuery Templates plugin (which at the top reads “for demonstration purposes only”):
 
-<img src="/images/benchmark2.jpg" />
+<img src="http://riley.dutton.us/images/benchmark2.jpg" />
 
 So at some point in the development of the plugin, things got incredibly slow. Just to be sure, I re-ran these benchmarks on Safari and Firefox (both on Mac), and found similar results (the overall time of all the plugins actually increased since the Javascript engines in those browsers are currently slower than the one in Chrome on Mac, but the relative results were the same).
 

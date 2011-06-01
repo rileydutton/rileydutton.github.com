@@ -26,7 +26,7 @@ Benchmarks
 
 Here is an updated benchmark, using this new method and with the template tag changes (time to render in milliseconds; lower bars are better):
 
-<img src="/images/benchmark5.png" />
+<img src="http://riley.dutton.us/images/benchmark5.png" />
 
 Average time for jQote2 was 11ms, for jQuery Templates 25ms. As you can see, the jQuery Templates plugin is now much, much more competitive in terms of speed compared to the jQote plugin. 
 
@@ -37,7 +37,7 @@ However, this got me thinking; the benchmark could really be considered rather s
 
 Here are the results of this adjustment:
 
-<img src="/images/benchmark3.png" />
+<img src="http://riley.dutton.us/images/benchmark3.png" />
 
 Average time for jQote2 was 66ms, for jQuery Templating, 76ms. As you can see, some time is added on by adding the string to the DOM, but not much, and again the plugins are very close in speed. This, however, led to one further thought: if adding the string to the DOM is so cheap, then why bother with using `.tmpl()` and creating the unparented DOM fragment?
 
@@ -45,7 +45,7 @@ As a comparison, I again modified the benchmark, this time to use the `.tmpl()` 
 
 And here were the results:
 
-<img src="/images/benchmark4.png" />
+<img src="http://riley.dutton.us/images/benchmark4.png" />
 
 Average time was 480ms. Over 6 times slower. From a very speedy 76ms, to a page-halting 480ms. 
 
