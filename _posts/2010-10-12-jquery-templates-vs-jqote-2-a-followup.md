@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jQuery Templates vs jQote 2
+title: jQuery Templates vs jQote 2: A Followup
 ---
 
 {{ page.title }}
