@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iPhone FaceTime: Why It Just Might Work
+title: iPhone FaceTime - Why It Just Might Work
 ---
 
 {{ page.title }}
